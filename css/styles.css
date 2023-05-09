@@ -11339,11 +11339,13 @@ section.resume-section .resume-section-content {
   top: 0;
   right: -100%;
   position: absolute;
-  backdrop-filter: blur(5px);
+  background-color: #495057;
+  backdrop-filter: opacity(20%);
+  backdrop-filter: blur(2px);
   padding: 20px;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  color: #ffffff;
   transition: 1s;
+  color: #ffffff;
 }
