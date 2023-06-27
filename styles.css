@@ -2,7 +2,7 @@
   font-family: "Roboto", sans-serif;
 }
 header {
-  padding: 20px;
+  padding: 10px;
   background-color: black;
 }
 
@@ -10,7 +10,9 @@ header,
 .nav-link,
 .navbar-brand {
   color: white;
+  font-weight: 500;
 }
+
 .nav-link:hover,
 .navbar-brand:hover {
   color: rgb(124, 124, 124);
@@ -21,10 +23,30 @@ header,
 }
 .hero {
   background-image: url("assets/background-img.jpg");
-  padding: 30px 0;
+  padding: 30px;
   background-size: cover;
 }
-
+h1 {
+  font-weight: 700;
+  font-size: 50px;
+}
+.about {
+  margin-top: 10px;
+  padding-top: 20px;
+}
+#about {
+  width: 400px;
+  height: 400px;
+}
+.title {
+  font-size: 100px;
+}
+.sub-title {
+  font-weight: 300;
+}
+.skills > h1 {
+  font-weight: 300;
+}
 @media only screen and (max-width: 600px) {
   .hero > div > img {
     width: 200px;
